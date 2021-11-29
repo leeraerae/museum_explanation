@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'KoPubDotumMedium';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+body{
+  width: auto;
+  height: 100vh;
+  /* font-family: 'KoPubDotumMedium'; */
+  font-family: 'Noto Sans KR', sans-serif;
+  color : #161616;
+  background-image: url("../img/pop_background.png");
+  overflow-y: hidden;
+}
+
+/* 닫기 버튼 */
+#subCloseButton{
+  position: fixed;
+  top: 3.8vw;
+  right: 5vw;
+}
+.subXButton{
+  position: fixed;
+  top: 3.8vw;
+  right: 5vw;
+}
+/* 헤더 부분 */
+header{
+  width: 50.2vw;
+  height: 100vh;
+  padding: 2vw 1.9vw 4.6vw 6.6vw;
+}
+#topContent{
+  width: 42vw;
+  height: 6.6vh;
+}
+#ContentsTextBox{
+  width: 35.4vw;
+  height: 24.4vh;
+}
+#headerCentierCon{
+  width: 42vw;
+  height: 40vh;
+}
+#headerBottomItems{
+  width: 11vw;
+  height: 3.7vh;
+}
+#headerBottomItems a{
+  transition: all 0.5s;
+}
+#headerBottomItems a:hover{
+  color: #EAD087;
+}
+#headertextBoxLeft{
+  width: 7vw;
+  height: 22vh;
+}
+#headertextBoxRight{
+  width: 31vw;
+  height: 22vh;
+}
+/* section 부분 */
+#mainSection{
+  width: 240vw;
+  height: 92.9vh;
+  background-color: #fff;
+}
+/* section 1 */
+#section-1{
+  width: 60vw;
+  height: 92.9vh;
+  padding: 10vh 0;
+}
+#section-1-top{
+  height: 42.5vh;
+}
+#section-1-border{
+  width: 0;
+  height: 7.9vh;
+  border: 1px solid #A55858;
+}
+#section-1-bottom{
+  height: 17.5vh;
+}
+#section-1-text-1{
+  width: 37.5vw;
+  height: 12.7vh;
+}
+#section-1-text-2{
+  width: 37.5vw;
+  height: 22.4vh;
+}
+/* section 2  */
+#section-2{
+  width: 68vw;
+  height: 92.9vh;
+  padding: 10vh 0;
+}
+.section-2-saying{
+  width: 30.3vw;
+  height: 6.1vh;
+}
+.section-2-textbox{
+  width: 25vw;
+  height: 13.8vh;
+}
+.section-2-line{
+  width: 20vw;
+  height: 0;
+  border-bottom: 1px solid #A55858;
+}
+#section-3{
+  width: 42vw;
+  height: 92.9vh;
+  padding: 10vh 0;
+}
+.section-3-textBox{
+  width: 38vw;
+  height: 29.4vh;
+  margin-right: 100vh;
+}
+#section-4{
+  width: 50.4vw;
+  height: 95vh;
+  padding: 10vh 0;
+  padding-right: 6vh;
+}
+.section-4-textbox{
+  width: 38.3vw;
+  height: 37vh;
+}
+#section-5{
+  width: 40vw;
+  height: 92.9vh;
+  padding: 10vh 0;
+  padding-left: 2vw;
+}
+#section-5 ul{
+  width: 28.8vw;
+  height: 74vh;
+}
+.section-textBox-1{
+  width: 28.8vw;
+  height: 17.9vh;
+}
+.section-textBox-2{
+  width: 28.8vw;
+  height: 30vh;
+}
+/* footer */
+footer{
+  width: 18.75vw;
+  height: 92.9vh;
+  padding: 2vw;
+}
+footer ul{
+  width: 15.9vw;
+  height: 86vh;
+}
+
+
+
+@media (max-width: 800px) {
+
+  body{
+    width: 100vw;
+    height: auto;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    display: block;
+  }
+#wrap{
+  display: block;
+}
+/* 닫기 버튼 */
+#subCloseButton{
+  display: none;
+}
+.subXButton{
+  display: none;
+}
+/* 헤더 부분 */
+header{
+  width: 100vw;
+  height: 100vh;
+  padding: 2vw 1.9vw 4.6vw 6.6vw;
+}
+#topContent{
+  width: 85vw;
+  height: 6.6vh;
+}
+.header-textbox-fill{
+  width: 14vw;
+}
+#mainImg{
+  width: 100vw;
+}
+#ContentsTextBox{
+  width: 90vw;
+  height: 24.4vh;
+}
+#headerCentierCon{
+  width: 90vw;
+  height: 40vh;
+}
+#headerBottomItems{
+  width: 40vw;
+  height: 3.7vh;
+}
+#headerBottomItems a{
+  transition: all 0.5s;
+}
+#headerBottomItems a:hover{
+  color: #EAD087;
+}
+#headertextBoxLeft{
+  width: 30vw;
+  height: 22vh;
+}
+#headertextBoxRight{
+  width: 50vw;
+  height: 22vh;
+}
+/* section 부분 */
+
+#mainSection{
+  width: 95vw;
+  height: 600vh;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+/* section 1 */
+#section-1{
+  width: 95vw;
+  height: 120vh;
+  padding: 0vh 0;
+  display: block;
+}
+#section-1-top{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+}
+#section-1-top h2{
+  font-size: 1.5rem;
+}
+#section-1-top h1{
+  font-size: 2rem;
+}
+#section-1-border{
+  width: 0;
+  height: 7.9vh;
+  border: 1px solid #A55858;
+  margin: 0 auto;
+}
+#section-1-bottom{
+  margin-top: 30vh;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+}
+#section-1-text-1{
+  width: 90vw;
+  margin: 0 auto;
+}
+#section-1-text-2{
+  width: 90vw;
+  margin: 0 auto;
+}
+/* section 2  */
+#section-2{
+  width: 90vw;
+  height: 100vh;
+  padding: 0;
+  margin-top: 20vh;
+}
+#section-2 img{
+  width: 100vw;
+}
+.section-2-saying{
+  width: 90vw;
+  height: 20vh;
+  margin-top: 5vh;
+}
+.section-2-textbox{
+  width: 90vw;
+  height: 30vh;
+}
+.section-2-line{
+  margin-bottom: 1vh;
+  width: 20vw;
+  height: 0;
+  border-bottom: 1px solid #A55858;
+}
+#section-2-textBoxWraper{
+  display: block;
+}
+
+
+#section-3{
+  width: 95vw;
+  height: 150vh;
+  padding: 0;
+  text-align: center;
+}
+#section-3 img{
+  width: 100vw;
+}
+.section-3-textBox{
+  width: 95vw;
+  height: 60vh;
+  margin-right: 0;
+}
+
+#section-4{
+  width: 95vw;
+  height: 150vh;
+  padding:  0;
+  padding-right: 0;
+  display: block;
+  margin-top: -30vh;
+  text-align: center;
+}
+#section-4>ul{
+  display: block;
+}
+.section-4-textbox{
+  width: 95vw;
+  height: 37vh;
+  margin: 0 auto;
+}
+#section-5{
+  width: 95vw;
+  height: 92.9vh;
+  padding: 10vh 0;
+  padding-left: 2vw;
+}
+#section-5 ul{
+  width: 95vw;
+  height: 74vh;
+}
+.section-textBox-1{
+  width: 95vw;
+  height: 17.9vh;
+}
+.section-textBox-2{
+  width: 95vw;
+  height: 30vh;
+}
+/* footer */
+footer{
+  width: 95vw;
+  height: 30vh;
+  padding: 2vw;
+  margin: 0 auto;
+}
+footer ul{
+  width: 95vw;
+  height: 20vh;
+}
+footer ul li:first-child{
+  display: none;
+}
+footer ul li:last-child{
+  margin: 10vh auto;
+}
+#topButton img{
+  transform: rotate(90deg);
+}
+
+  
+}

@@ -1,0 +1,294 @@
+/* 정리 */
+.backCo{
+  background-color: darkorange;
+}
+.filter-bri{
+  filter: brightness(1);
+}
+.opacity-3{
+  opacity: 0.3;
+}
+.opacity-6{
+  opacity: 0.6;
+}
+.color-yellow{
+  color: #EAD087;
+}
+.color-AF8B64{
+  color: #AF8B64;
+}
+.color-6D6154{
+  color: #6D6154;
+}
+.mar-0-auto{
+  margin: 0 auto;
+}
+.po-ab-00{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.po-re{
+  position: relative;
+}
+.po-ab-50-50{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.po-ab-0-50{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.z-index-9{
+  z-index: 9;
+}
+.flex-ri{
+  display: flex;
+  justify-content: right;
+}
+.flex-se{
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-sb{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-sbtw{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-cl{
+  flex-direction: column;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-start{
+  display: flex;
+  justify-content: start;
+}
+.flex-end{
+  display: flex;
+  justify-content: end;
+}
+.align-items-start{
+  align-items: flex-start;
+}
+.align-items-flex-end{
+  align-items: flex-end;
+}
+.align-items-center{
+  align-items: center;
+}
+.frex-wrap{
+  flex-wrap: wrap;
+}
+.display-none{
+  display: none;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.font-12x{
+  font-size: 0.75rem;
+}
+.font-14px{
+  font-size: 0.875rem;
+}
+.font-16px{
+  font-size: 1rem;
+}
+.font-18px{
+  font-size: 1.125rem;
+}
+.font-20px{
+  font-size: 1.25rem;
+}
+.font-22px{
+  font-size: 1.375rem;
+}
+.font-26px{
+  font-size: 1.625rem;
+}
+.font-28px{
+  font-size: 1.75rem;
+}
+.font-2rem{
+  font-size: 2rem;
+}
+.font-3rem{
+  font-size: 3rem;
+}
+.font-36px{
+  font-size: 2.25rem;
+}
+.font-40px{
+  font-size: 2.5rem;
+}
+.font-46px{
+  font-size: 2.875rem;
+}
+.font-52px{
+  font-size: 3.25rem;
+}
+.font-3-75rem{
+  font-size: 3.75rem;
+}
+.font-ccc{
+  color: #ccc;
+}
+.font-maincolor{
+  color: #F6F2F0;
+}
+.font-a2987c{
+  color: #A2987C;
+}
+.font-EAE6DD{
+  color: #EAE6DD;
+}
+.font-main-red{
+  color: #A55858;
+}
+.line-height-2{
+  line-height: 2rem;
+}
+.line-height-2-5{
+  line-height: 2.5rem;
+}
+.line-height-4{
+  line-height: 4rem;
+}
+.line-height-8-5{
+  line-height: 8.5rem;
+}
+.font-right{
+  font-weight: lighter;
+}
+.font-normal{
+  font-weight: normal;
+}
+.font-bold{
+  font-weight: bold;
+}
+.margin-1vh{
+  margin: 0 1vh;
+}
+.margin-2vh{
+  margin: 0 2vh;
+}
+.margin-2-0{
+  margin: 2vh 0;
+}
+.margin-le-1-5vh{
+  margin-left: 1.5vh;
+}
+.margin-le-3vh{
+  margin-left: 3vh;
+}
+.margin-ri-5vh{
+  margin-right: 5vh;
+}
+.mar-top-5px{
+  margin-top: 5px;
+}
+.mar-top-1{
+  margin-top: 1vh;
+}
+.mar-top-2{
+  margin-top: 2vh;
+}
+.mar-top-4{
+  margin-top: 4vh;
+}
+.mar-top-10{
+  margin-top: 10vh;
+}
+.mar-bo-2{
+  margin-bottom: 2vh;
+}
+.mar-bo-6{
+  margin-bottom: 6vh;
+}
+.mar-bo-18{
+  margin-bottom: 18vh;
+}
+.padding-2-0{
+  padding: 2vh 0;
+}
+.padding-0-2{
+  padding: 0 2vh;
+}
+.padding-ri-5{
+  padding-right: 5vw;
+}
+.border-left-fff{
+  border-left: 1px solid #fff;
+}
+.border-right-fff{
+  border-right: 1px solid #fff;
+}
+.border-right-620{
+  border-right: 1px solid #F6F2F0;
+}
+.border-bo-2px-620{
+  border-bottom: 2px solid #F6F2F0;
+}
+.border-right-a99{
+  border-right: 1px solid #C5BA99;
+}
+.txt-align-cen{
+  text-align: center;
+}
+.txt-align-le{
+  text-align: left;
+}
+.txt-align-ri{
+  text-align: right;
+}
+.transition-0-5{
+  transition: all 0.5s;
+}
+.transition-0-3{
+  transition: all 0.3s;
+}
+.po-ab-bo-0{
+  position: absolute;
+  bottom: 0;
+}
+.back-co-deepbro{
+  background-color: #4D453C;
+}
+.header-textbox-fill{
+  width: 2.8vw;
+  height: 2.4vh;
+  padding: 4px;
+  background-color: #fff;
+  color: #A55858;
+}
+.line-box-border{
+  width: 1px;
+  height: 16px;
+}
+.font-gowundodum{
+  font-family: 'GowunDodum-Regular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
